@@ -88,5 +88,7 @@ public class Main {
         }
         //Imprimimos el resultado en pantalla.
         System.out.printf("El número introducido es %s y %s\n", decenasLetra, unidadesLetra);
+        //Cerramos el scanner.
+        sc.close();
     }
 }
